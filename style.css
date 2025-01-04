@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url(./public/images/ifsf.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 35px;
+}
+.title{
+    background-color: rgba(1, 1, 1, 0.7);
+    color: white;
+    padding:  0px 20px 0px 20px;
+    border-radius: 20px;   
+    font-family: "Style Script", serif;
+    font-style: normal;
+}
+.main-text{
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px 50px;
+    font-size: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column  ;
+}
+.quotes-description{
+    text-align: left;
+    font-family: "Style Script", serif;
+    font-weight: bold ;
+    font-style: normal;
+    font-size: 40px;
+
+}
+.quotes-name{
+    text-align: right;
+    color: rgb(180, 55, 55);
+    font-weight: bold;
+}
+.generator{
+    background-color: rgba(1, 1, 1, 0.7 );
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+}
