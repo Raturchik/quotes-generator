@@ -21,10 +21,11 @@ let quotes = [
 ];
 
 document.addEventListener("DOMContentLoaded", function(){
-    let mainText = document.body.querySelector(".main-text");
-    let quotesDescription = mainText.firstElementChild;
-    let quotesName = mainText.lastElementChild;
+    let wrapper = document.body.querySelector(".wrapper");
+    let quotesDescription = wrapper.firstElementChild;
+    let quotesName = wrapper.lastElementChild;
     let button = document.body.querySelector(".generator");
+    let pop = document.body.querySelector(".spinner");
 
     quotesDescription.innerText = quotes[0].quote;
     quotesName.innerText = quotes[0].name;
@@ -36,7 +37,6 @@ document.addEventListener("DOMContentLoaded", function(){
         quotesDescription.innerText = quotes[index].quote;
         quotesName.innerText = quotes[index].name;
     })
-    
 });
 
 
